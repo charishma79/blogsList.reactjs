@@ -1,0 +1,53 @@
+/* Write your CSS code here */
+.blogs-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #12022f;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 28px;
+  }
+}
+
+.date {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #9aa5b1;
+}
+
+@media screen and (min-width: 768px) {
+  .date {
+    font-size: 20px;
+  }
+}
+
+.para {
+  font-family: Roboto;
+  font-size: 15px;
+  color: #9aa5b1;
+}
+
+@media screen and (min-width: 768px) {
+  .para {
+    font-size: 20px;
+  }
+}
+
+.seperator {
+  border: 1px solid #9aa5b1;
+  width: 100%;
+}
